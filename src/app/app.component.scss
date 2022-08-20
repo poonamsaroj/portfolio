@@ -1,0 +1,32 @@
+.mat-toolbar {
+    font-family: Georgia !important;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    font-size: medium;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .mat-toolbar {
+        display: none;
+    }
+}
+
+.mat-toolbar a {
+    text-decoration: none !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.mat-toolbar p>span {
+    text-transform: 'Uppercase';
+}
+
+.example-icon {
+    padding: 0 14px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}

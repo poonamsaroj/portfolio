@@ -1,0 +1,35 @@
+.skills {
+    height: 100vh;
+    background-size: initial;
+    background-repeat: repeat;
+    background-color: rgb(231, 231, 231, 0);
+    background-image: url('https://navmeetsingh.com/wp-content/uploads/2021/04/Icons-bg.png');
+}
+
+.card {
+    padding: 0 30px 0 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    #aboutme {
+        padding: 10%;
+    }
+
+    .hero-text {
+        position: relative !important;
+    }
+
+    .intro-text {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .intro-detail {
+        width: 100% !important;
+    }
+
+    circle-progress svg {
+        height: 100 !important;
+        width: 100 !important;
+    }
+}
