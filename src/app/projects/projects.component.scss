@@ -1,5 +1,18 @@
 .projects {
     height: 100vh;
+    background-size: initial;
+    background-repeat: repeat;
+    background-color: rgb(231, 231, 231, 0);
+    background-image: url('https://navmeetsingh.com/wp-content/uploads/2021/04/Icons-bg.png');
+}
+
+.projects .header {
+    text-align: center;
+    color: #060606;
+    font-size: 2.5em;
+    // margin-top: -3px;
+    // margin-bottom: 1%;
+    // padding: 5% 0 1% 0;
 }
 
 .banner {

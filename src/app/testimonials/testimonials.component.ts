@@ -9,12 +9,12 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 export class TestimonialsComponent implements OnInit {
   customOptions: OwlOptions = {
     loop: true,
-    mouseDrag: true,
-    touchDrag: true,
+    mouseDrag: false,
+    touchDrag: false,
     pullDrag: true,
     dots: true,
     navSpeed: 700,
-    navText: ['', ''],
+    navText: ['<mat-icon><</mat-icon>', '<mat-icon>></mat-icon>'],
     responsive: {
       0: {
         items: 1

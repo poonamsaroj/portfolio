@@ -9,7 +9,6 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { FlexLayoutModule } from "@angular/flex-layout";
-import { GoogleChartsModule } from 'angular-google-charts';
 import { ProjectsComponent } from './projects/projects.component';
 // Import ng-circle-progress
 import { NgCircleProgressModule } from 'ng-circle-progress';
@@ -34,7 +33,6 @@ import { SkillsComponent } from './skills/skills.component';
     MatToolbarModule,
     MatIconModule,
     FlexLayoutModule,
-    GoogleChartsModule,
     MatProgressSpinnerModule,
     MatCardModule,
     // Specify ng-circle-progress as an import
