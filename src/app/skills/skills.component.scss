@@ -1,5 +1,5 @@
 .skills {
-    height: 100vh;
+    height: 80vh;
     background-size: initial;
     background-repeat: repeat;
     background-color: rgb(231, 231, 231, 0);
@@ -10,35 +10,20 @@
     text-align: center;
     color: #060606;
     font-size: 2em;
-    // margin-top: -3px;
-    // margin-bottom: 1%;
-    // padding: 5% 0 1% 0;
 }
 
 .card {
-    padding: 0 30px 0 30px;
+    padding: 15px;
 }
 
 @media only screen and (max-width: 768px) {
-    #aboutme {
-        padding: 10%;
-    }
-
-    .hero-text {
-        position: relative !important;
-    }
-
-    .intro-text {
-        visibility: hidden;
-        position: relative;
-    }
-
-    .intro-detail {
-        width: 100% !important;
-    }
-
-    circle-progress svg {
-        height: 100 !important;
-        width: 100 !important;
+    #skills {
+        height: 100vh;
     }
 }
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {}
