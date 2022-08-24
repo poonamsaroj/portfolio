@@ -10,6 +10,9 @@
     margin-bottom: 5px !important;
     text-align: center;
     word-wrap: break-word;
+    color: #474444;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
@@ -19,7 +22,7 @@
 }
 
 .testimonial-container {
-    background-color: #527381;
+    background-color: #8f8f8e;
     color: #fff;
     border-radius: 15px;
     margin: 30px auto 0 auto;
@@ -96,4 +99,20 @@
     .fa-quote {
         display: none;
     }
+}
+
+
+.et_pb_column,
+.et_pb_row,
+.et_pb_row_inner {
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.et_pb_row {
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
 }

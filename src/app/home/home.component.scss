@@ -2,7 +2,9 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('https://images.unsplash.com/photo-1530533718754-001d2668365a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
     background-size: cover;
     background-position: center;
+    // height: 100vh;
 }
+
 
 @media only screen and (max-width: 768px) {
     #aboutme {
@@ -31,7 +33,7 @@
 }
 
 .intro-text {
-    color: cyan;
+    color: rgba(0, 255, 115);
     font-size: 2.4rem;
     font-family: monospace;
     overflow: hidden;
@@ -78,7 +80,7 @@
 
 .intro-name {
     text-transform: capitalize;
-    color: #FF4081;
+    color: #ff4040;
     font-size: 3rem;
     font-family: monospace;
     text-align: center;

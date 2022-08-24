@@ -1,0 +1,25 @@
+.projects {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 80vh;
+}
+
+.projects .header h2 {
+    margin-bottom: 5px !important;
+    text-align: center;
+    word-wrap: break-word;
+    color: #474444;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.example-card {
+    max-width: 400px;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
