@@ -8,13 +8,17 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class TestimonialsComponent implements OnInit {
   customOptions: OwlOptions = {
+    autoplay: true,
+    autoplaySpeed: 3000,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
     loop: true,
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,
-    dots: true,
+    dots: false,
     navSpeed: 700,
-    navText: ['<mat-icon><</mat-icon>', '<mat-icon>></mat-icon>'],
+    navText: [],
     responsive: {
       0: {
         items: 1
@@ -29,7 +33,7 @@ export class TestimonialsComponent implements OnInit {
         items: 1
       }
     },
-    nav: true
+    nav: false
   }
   constructor() { }
 
