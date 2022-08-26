@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    particlesJS.load('aboutme', 'assets/particles.json');
+    particlesJS.load('aboutme', 'portfolio/assets/particles.json');
   }
 
 }
